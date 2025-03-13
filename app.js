@@ -25,7 +25,7 @@ function agregarAmigo() {
 
     // Agregar el nombre a la lista
     amigos.push(nombre);
-    inputAmigo.value = ""; // Limpiar el input
+    inputAmigo.value = ""; 
 
     // Crear y mostrar el nuevo elemento en la lista
     let li = document.createElement("li");
